@@ -134,6 +134,10 @@ html {
     margin-top: -20px;
 }
 
+tbody :hover {
+    background-color: rgb(212, 212, 212);
+}
+
 ::placeholder {
     color: black;
     opacity: 0.5;
