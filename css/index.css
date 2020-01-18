@@ -4,13 +4,12 @@
 }
 
 html {
-    background: url(assets/bg.jpg) no-repeat center center fixed;
+    background: url(../assets/bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     backdrop-filter: brightness(0.5);
-    height: 100%;
 }
 
 .title-header {
@@ -18,6 +17,18 @@ html {
     font-family: coolvetica;
     font-size: 45px;
     margin-top: 60px;
+}
+
+.title-header-2 {
+    color: white;
+    font-family: coolvetica;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.title-header-2 img {
+    height: 30px;
+    margin-bottom: -5px;
 }
 
 .title-header img {
@@ -82,6 +93,45 @@ html {
     margin-left: -25px;
     width: 50px;
     height: 50px;
+}
+
+.content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+#user-image {
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#user-name {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#user-partido {
+    height: 30px;
+}
+
+#user-partido-name{
+    margin-left: -70px;
+    margin-top: 4px;
+}
+
+.content-details {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.title-header-3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -20px;
 }
 
 ::placeholder {
