@@ -1,0 +1,61 @@
+@font-face {
+    font-family: coolvetica;
+    src: url("../resources/fonts/coolvetica\ rg.ttf");
+}
+
+html {
+    background: url(assets/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    backdrop-filter: brightness(0.5);
+    height: 100%;
+}
+
+.title-header {
+    color: white;
+    font-family: coolvetica;
+    font-size: 45px;
+    margin-top: 60px;
+}
+
+.title-header img {
+    height: 45px;
+    margin-bottom: -10px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #00000050);
+}
+
+.buscador {
+    background-color: white !important;
+    border-radius: 30px !important;
+    text-align: center;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    font-family: coolvetica;
+}
+
+#buscar {
+    background-color: #D96D71;
+    color: black;
+    font-family: coolvetica;
+    width: 200px;
+    border-radius: 20px;
+    text-transform: capitalize !important;
+    font-size: 18px;
+}
+
+.bottom-text {
+    margin-top: 100px;
+}
+
+.bottom-text p {
+    color: white;
+    margin-bottom: -10px;
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.5;
+}
