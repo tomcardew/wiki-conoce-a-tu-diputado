@@ -134,6 +134,35 @@ html {
     margin-top: -20px;
 }
 
+.title-subheader {
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+    margin-top: -20px;
+}
+
+#back {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    left: 20px;
+    top: 30px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.5s;
+}
+
+#back p {
+    color: white;
+    font-family: coolvetica;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#back:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
 tbody :hover {
     background-color: rgb(212, 212, 212);
 }
